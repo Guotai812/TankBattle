@@ -38,3 +38,13 @@ This is a Java implementation of the classic Tank Battle game, built as a learni
 ## Prerequisites
 - **Java Development Kit (JDK) 8 or higher**
 - [Optional] An IDE such as IntelliJ IDEA or Eclipse, configured for Java development.
+
+---
+
+## Run Game
+```bash
+git clone git@github.com:Guotai812/TankBattle.git
+cd tankbattle
+javac -d out src/**/*.java
+cd -r src/image out
+java Launcher
