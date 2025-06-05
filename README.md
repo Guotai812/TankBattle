@@ -46,5 +46,5 @@ This is a Java implementation of the classic Tank Battle game, built as a learni
 git clone git@github.com:Guotai812/TankBattle.git
 cd tankbattle
 javac -d out src/**/*.java
-cd -r src/image out
+cp -r src/image out
 java Launcher
