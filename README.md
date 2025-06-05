@@ -47,4 +47,5 @@ git clone git@github.com:Guotai812/TankBattle.git
 cd tankbattle
 javac -d out src/**/*.java
 cp -r src/image out
+cd out
 java Launcher
